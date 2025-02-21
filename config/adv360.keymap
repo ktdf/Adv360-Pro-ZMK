@@ -50,15 +50,6 @@
         };
     };
 
-    macros {
-        ctr_alt_del: ctr_alt_del {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RCTRL &kp LEFT_ALT &kp DELETE>;
-            label = "CTR_ALT_DEL";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
